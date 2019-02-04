@@ -13,6 +13,10 @@ function four() {
  var num = document.getElementById("n1"); 
  num.value = Math.pow(num.value, 4);
 }
+function square() {
+ var num = document.getElementById("n1");
+ num.value = num.value * num.value;
+}
 </script>
 </head>
 <body>
@@ -22,5 +26,6 @@ function four() {
  <button onclick="cube()"> x^3 </button>
  <button onclick="sine()"> sin(x) </button>
  <button onclick="four()"> x^4 </button>
+ <button onclick="square()"> x^2 </button>
 </body>
 </html>
